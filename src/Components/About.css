@@ -1,0 +1,31 @@
+.AboutContainer{
+  /* border: 3px solid; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  /* background-image: url('/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-position: -10% 120px; */
+}
+.Difference{
+  /* border: 3px solid; */
+  width: 40%;
+}
+.Difference h1{
+  color: rgb(36, 45, 82);
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.Difference p{
+  color: grey;
+  width: 75%;
+  font-size: 23px;
+  margin-bottom: 3rem;
+}
+.IndAdvantages{
+  width: 50%;
+  /* border: 3px solid; */
+}

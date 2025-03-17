@@ -1,0 +1,35 @@
+.IllustrationContainer{
+  /* border: 3px solid; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin-top: 5%;
+}
+.IllustrationWords{
+  width: 40%;
+  /* border: 3px solid; */
+}
+.IllustrationWords h1{
+  color: rgb(36, 45, 82);
+  font-size: 70px;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+.IllustrationWords p{
+  color: grey;
+  width: 80%;
+  font-size: 23px;
+  margin-bottom: 3rem;
+}
+.IllustrationWords button{
+  padding: 7px 20px;
+  border-radius: 30px;
+  background-color: rgb(242, 95, 58);
+  color: white;
+  border: none;
+}
+.IllustrationImageContainer{
+  /* border: 3px solid; */
+}

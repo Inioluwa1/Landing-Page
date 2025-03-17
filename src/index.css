@@ -5,3 +5,7 @@
   font-family: 'Be Vietnam Pro';
   line-height: 1.5;
 }
+
+button{
+  cursor: pointer;
+}

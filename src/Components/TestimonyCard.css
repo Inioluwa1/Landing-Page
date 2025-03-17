@@ -1,0 +1,23 @@
+.TestimonyCardContainer{
+  width: 30%;
+  height: 250px;
+  /* border: 3px solid; */
+  background-color: rgb(240, 241, 243);
+  border-radius: 20px;
+  position: relative;
+  padding: 0 15px;
+}
+.TestimonyCardContainer img{
+  position: absolute;
+  top: -30%;
+  left: 35%;
+}
+.TestimonyCardContainer h1{
+  color:  hsl(228, 39%, 23%);
+  margin-top: 15%;
+}
+.TestimonyCardContainer p{
+  color: grey;
+  position: relative;
+  margin-top: -15%;
+}

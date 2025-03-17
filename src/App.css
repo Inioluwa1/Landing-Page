@@ -6,6 +6,14 @@
 
 #root {
   margin: 0 auto;
-  /* padding: 2rem; */
+  background-image: url('/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-position: 120% -150px;
   /* text-align: center; */
+  
+}
+.About{
+  background-image: url('/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-position: -55% 350px;
 }

@@ -1,0 +1,131 @@
+.FooterContainer{
+ margin-top: 2%;
+}
+.Footer1{
+  background: url('/bg-tablet-pattern.svg'), rgba(242, 95, 58, 0.8);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat; 
+  padding: 3rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Footer1 h1{
+  /* border: 3px solid; */
+  color: white;
+  width: 400px;
+}
+.Footer1 button{
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  color: rgb(242, 95, 58);
+  font-weight: bolder;
+}
+.Footer1 button:hover{
+  color: rgba(242, 95, 58, 0.4);
+}
+.Footer2{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 3rem 10rem ;
+  color: white;
+  height: auto;
+  /* border: 3px solid; */
+}
+.LogoandMedia{
+  /* border: 3px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15%;
+  height: 150px;
+}
+.Logo{
+  /* border: 3px solid; */
+  width: 90%;
+}
+.Media{
+  display: flex;
+  width: 100%;
+  /* border: 3px solid; */
+  justify-content: space-between;
+  height: 30px;
+}
+.Media img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.AboutCompany, .Others{
+  /* border: 3px solid; */
+  width: 10%;
+  color: grey;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.AboutCompany p, .Others p{
+  cursor: pointer;
+}
+.AboutCompany p:hover, .Others p:hover{
+  color:rgb(242, 95, 58);
+}
+
+
+.Footer3{
+  /* border: 3px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+}
+.Form{
+  /* border: 3px solid; */
+  display: flex;
+  justify-content: space-between;
+}
+.FormInput{
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 20px;
+  margin-right: 4%;
+  font-size: 18px;
+  width: 90%;
+}
+.error{
+  border: 1px solid red;
+  color: red;
+}
+.Form button{
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(242, 95, 58);
+}
+.Form button:hover{
+  background-color: rgba(236, 108, 77, 0.4);
+}
+.Error{
+  color: red;
+  font-style: italic;
+  position: relative;
+  top: -15%;
+  left: 5%;
+  font-weight: 200;
+}
+
+.Copyright{
+  color: grey;
+  /* border: 3px solid; */
+  width: 85%;
+  margin-left: 15%;
+}
+.Copyright p{
+  font-size: 16px;
+}

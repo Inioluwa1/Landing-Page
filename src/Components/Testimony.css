@@ -20,3 +20,6 @@
   color: white;
   border: none;
 }
+.TestimonyContainer button:hover{
+  background-color: rgba(242, 95, 58, 0.4);
+}

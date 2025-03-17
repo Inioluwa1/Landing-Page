@@ -4,6 +4,7 @@ import Header from "./Components/Header"
 import Illustration from './Components/Illustration'
 import About from './Components/About'
 import Testimony from './Components/Testimony'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Testimony />
       </div>
+      <Footer />
     </div>
   )
 }

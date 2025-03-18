@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 .AboutCompany, .Others{
-  border: 3px solid;
+  /* border: 3px solid; */
   width: 10%;
   color: grey;
   height: 150px;

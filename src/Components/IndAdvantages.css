@@ -26,3 +26,33 @@
   font-size: 23px;
   margin-top: 1%;
 }
+
+@media screen and (max-width: 600px) {
+  .IndAdvantagesContainer{
+    margin-bottom: 2rem;
+  }
+  .ButtonContainer{
+    background-color:rgb(255, 239, 235);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .identity{
+    margin-right: 10px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 500;
+  }
+  .ButtonContainer h1{
+    font-size: 16px;
+    /* border: 3px solid; */
+    width: 100%;
+  }
+  .InformationContainer{
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 2;
+  }
+}

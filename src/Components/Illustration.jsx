@@ -10,8 +10,8 @@ export default function Illustration() {
         <button> Get Started </button>
       </div>
       <div className='IllustrationImageContainer'>
-        <img src='/illustration-intro.svg' />
+        <img src='/illustration-intro.svg' alt='Illustration' className='Illustration' />
       </div>
     </div>
   )
-}
+} 

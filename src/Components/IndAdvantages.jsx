@@ -14,3 +14,4 @@ export default function IndAdvantages({id, Header, About}) {
     </div>
   )
 }
+ 

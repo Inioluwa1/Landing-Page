@@ -16,7 +16,7 @@ export default function Testimony() {
           About = {indTestimony.About}
           />
         ))}
-      </div>
+      </div> 
       <button> Get Started </button>
     </div>
   )

@@ -7,6 +7,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.Hamburger{
+  display: none;
+}
 .Links{
   display: flex;
   justify-content: space-between;
@@ -19,13 +22,48 @@
 .Links p:hover{
   color: grey;
 }
-.Header button{
+.GetStarted{
   padding: 7px 20px;
   border-radius: 30px;
   background-color: rgb(242, 95, 58);
   color: white;
   border: none;
 }
-.Header button:hover{
+.GetStarted:hover{
   background-color: rgba(242, 95, 58, 0.4);
+}
+
+@media screen and (max-width: 600px) {
+  .GetStarted{
+    display: none;
+  }
+  .Hamburger{
+    display: block;
+    border: none;
+    position: relative;
+    left: 20%;
+  }
+  .Links{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    text-align: center;
+    padding: 1rem 0;
+    color: hsl(228, 39%, 23%);
+    border-radius: 10px;
+  }
+  .Links p{
+    margin-top: 1.5rem;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .show{
+    display: flex;
+  } 
 }

@@ -17,3 +17,9 @@
   background-repeat: no-repeat;
   background-position: -55% 350px;
 }
+
+@media screen and (max-width: 600px) {
+  #root{
+    background-position: -30% -10%;
+  }
+}

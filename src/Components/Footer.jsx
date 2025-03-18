@@ -9,9 +9,10 @@ export default function Footer() {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (emailPattern.test(input)){
       console.log(input);
-      setError(false)
       setInput("")
-    } else{
+      alert("Email submitted succesfully✅")
+      setError(false)
+    } else{ 
       setError(true)
     }
   }
@@ -54,6 +55,45 @@ export default function Footer() {
             <p > Copyright 2020. All RIghts Reserved</p>
           </div>
         </div>
+      </div>
+
+      <div className='MobileFooter2'>
+        <div className='MobileForm'>
+          <input type='email' placeholder='Updates in your inbox' className={`MobileFormInput ${error? "error": ""}`} value={input} onChange={(e)=> setInput(e.target.value)} />
+          <button onClick={handleFormSubmision}> Go </button>
+        </div>
+        {error && <p className='MobileError'> Please insert a valid email </p>}
+
+        <div className='MobileLinks'>
+          <div className='MobileAboutCompany'>
+            <p> Home </p>
+            <p> Pricing </p>
+            <p> Products </p>
+            <p> About Us </p>
+          </div>
+          <div className='MobileOthers'>
+            <p> Careers </p>
+            <p> Community </p>
+            <p> Privacy Policy </p>
+            <p></p>
+          </div>
+        </div>
+
+        <div className='MobileLogoandMedia'>
+          <img src='/logo.svg' alt='Manage Icon' className='MobileLogo'/>
+          <div className='MobileMedia'>
+            <img src='/public/icon-facebook.svg' />
+            <img src='/public/icon-youtube.svg' />
+            <img src='/public/icon-twitter.svg' />
+            <img src='/public/icon-pinterest.svg' />
+            <img src='/public/icon-instagram.svg' />
+          </div>
+        </div>
+
+        <div className='MobileCopyright'>
+            <p > Copyright 2020. All RIghts Reserved</p>
+        </div>
+
       </div>
     </div>
   )

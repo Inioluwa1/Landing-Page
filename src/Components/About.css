@@ -10,7 +10,7 @@
   background-position: -10% 120px; */
 }
 .Difference{
-  /* border: 3px solid; */
+  /* border: 3px solid;  */
   width: 40%;
 }
 .Difference h1{
@@ -28,4 +28,27 @@
 .IndAdvantages{
   width: 50%;
   /* border: 3px solid; */
+}
+
+@media screen and (max-width: 600px) {
+  .AboutContainer{
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .Difference{
+    width: 100%;
+    text-align: center;
+  }
+  .Difference h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+  .Difference p{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .IndAdvantages{
+    width: 100%;
+  }
 }

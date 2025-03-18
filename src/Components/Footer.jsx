@@ -26,11 +26,11 @@ export default function Footer() {
         <div className='LogoandMedia'>
           <img src='/logo.svg' alt='Manage Icon' className='Logo'/>
           <div className='Media'>
-            <img src='/public/icon-facebook.svg' />
-            <img src='/public/icon-youtube.svg' />
-            <img src='/public/icon-twitter.svg' />
-            <img src='/public/icon-pinterest.svg' />
-            <img src='/public/icon-instagram.svg' />
+            <img src='/icon-facebook.svg' />
+            <img src='/icon-youtube.svg' />
+            <img src='/icon-twitter.svg' />
+            <img src='/icon-pinterest.svg' />
+            <img src='/icon-instagram.svg' />
           </div>
         </div>
         <div className='AboutCompany'>
@@ -82,11 +82,11 @@ export default function Footer() {
         <div className='MobileLogoandMedia'>
           <img src='/logo.svg' alt='Manage Icon' className='MobileLogo'/>
           <div className='MobileMedia'>
-            <img src='/public/icon-facebook.svg' />
-            <img src='/public/icon-youtube.svg' />
-            <img src='/public/icon-twitter.svg' />
-            <img src='/public/icon-pinterest.svg' />
-            <img src='/public/icon-instagram.svg' />
+            <img src='/icon-facebook.svg' />
+            <img src='/icon-youtube.svg' />
+            <img src='/icon-twitter.svg' />
+            <img src='/icon-pinterest.svg' />
+            <img src='/icon-instagram.svg' />
           </div>
         </div>
 

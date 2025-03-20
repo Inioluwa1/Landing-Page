@@ -23,9 +23,51 @@
 .TestimonyContainer button:hover{
   background-color: rgba(242, 95, 58, 0.4);
 }
+.MobileIndTestimonyContainer{
+  display: none;
+}
 
 @media screen and (max-width:600px) {
-  .TestimonyContainer{
+  .IndTestimonyContainer{
     display: none;
+  }
+  .MobileIndTestimonyContainer{
+    position: relative;
+    display: block;
+    border: 3px solid;
+    height: 490px;
+    overflow: hidden;
+    position: relative;
+    top: -30px;
+  }
+  .MobileSlider{
+    /* border: 5px solid; */
+    height: 350px;
+    margin-top: 70px;
+    background-color: rgb(240, 241, 243);
+    display: none;
+  }
+  .active{
+    display: block;
+  }
+
+  .MobileIndTestimonyContainer img{
+    position: relative;
+    bottom: 70px;
+  }
+  .MobileIndTestimonyContainer h1{
+    position: relative;
+    bottom: 70px;
+  }
+  .MobileIndTestimonyContainer p{
+    position: relative;
+    bottom: 45%;
+    font-size: 20px;
+    color: grey;
+    margin: auto;
+    width: 90%;
+  }
+  .Dotcontainer{
+    margin-top: 5%;
   }
 }

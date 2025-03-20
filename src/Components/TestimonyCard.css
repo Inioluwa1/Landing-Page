@@ -21,3 +21,23 @@
   position: relative;
   margin-top: -15%;
 }
+
+@media screen and (max-width:600px) {
+  .TestimonyCardContainer{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    height: 300px;
+  }
+  .TestimonyCardContainer h1{
+    /* border: 3px solid; */
+    position: relative;
+    top: 25%;
+  }
+  .TestimonyCardContainer p{
+    /* border: 3px solid; */
+    top: 10%;
+    font-size: 20px;
+  }
+}

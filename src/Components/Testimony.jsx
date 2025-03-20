@@ -11,7 +11,7 @@ export default function Testimony() {
       setSelected((prevSelected) => 
         (prevSelected + 1) % Testimonies.length
       )
-    }, 3000)
+    }, 5000)
 
     return () => clearInterval(interval);
     
@@ -48,9 +48,9 @@ export default function Testimony() {
             {Testimonies.map((_, index) => (
               <span
                 key={index}
+                className={`dot ${index===selected? "dotactive" : ""} `}
                 onClick={() => setSelected(index)}
               >
-                  Hey
               </span>
             ))}
           </div>

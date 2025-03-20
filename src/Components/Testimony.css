@@ -34,7 +34,7 @@
   .MobileIndTestimonyContainer{
     position: relative;
     display: block;
-    border: 3px solid;
+    /* border: 3px solid; */
     height: 490px;
     overflow: hidden;
     position: relative;
@@ -69,5 +69,27 @@
   }
   .Dotcontainer{
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  .dot{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(242, 95, 58);
+    /* background-color: red; */
+    margin: 0 7px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dotactive{
+    background-color: rgb(242, 95, 58);
+    transform: scale(1.5);
+  }
+
+  .TestimonyContainer button{
+    position: relative;
+    bottom: 40px;
+    padding: 20px 40px;
+    font-size: 20px;
   }
 }
